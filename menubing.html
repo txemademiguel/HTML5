@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu con Chat de Bing</title>
+    <link rel="stylesheet" href="menubing.css">
+    <script>
+        const toggleMenu = document.querySelector('.toggle-menu');
+        const menu = document.querySelector('nav ul');
+
+        toggleMenu.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Menú Generado por Bing</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Página 1</a></li>
+            <li><a href="#">Página 2</a></li>
+            <li><a href="#">Página 3</a></li>
+            <li><a href="#">Página 4</a></li>
+            <li><a href="#">Página 5</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
